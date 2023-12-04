@@ -11,4 +11,11 @@
         display: flex;
         width: 250px;
     }
+    .imageContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .descriptionServicesContainer {
+        padding: 0px 50px;
+    }
 }
