@@ -2,13 +2,14 @@ header {
     background-color: black;
     text-align: end;
     img {
+        display: flex;
         width: 240px;
         position: relative;
         top: 10px;
     }
     a {
         position: relative;
-        bottom: 20px;
+        bottom: 30px;
         padding: 10px;
         right: 20px;
         color: #6d89f0;

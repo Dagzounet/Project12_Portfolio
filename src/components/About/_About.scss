@@ -1,0 +1,14 @@
+.About {
+    background-color: black;
+    padding: 100px 60px;
+    color: white;
+    display: flex;
+    p {
+        position: relative;
+        left: 30px;
+    }
+    img {
+        display: flex;
+        width: 250px;
+    }
+}

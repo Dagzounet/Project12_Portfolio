@@ -7,21 +7,21 @@ function Header() {
     <header>
       <img src={logo} alt="le logo de kasa" />
       <a
-        href="/#"
+        href="#"
         alt="About"
         className={location.pathname === "/" ? "underline" : ""}
       >
         About
       </a>
       <a
-        href="/#projects"
+        href="#projects"
         alt="Projects"
         className={location.pathname === "/projects" ? "underline" : ""}
       >
         Projects
       </a>
       <a
-        href="/#contact"
+        href="#contact"
         alt="Contact"
         className={location.pathname === "/contact" ? "underline" : ""}
       >
