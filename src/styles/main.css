@@ -35,6 +35,7 @@ footer {
 .About p {
   position: relative;
   left: 30px;
+  width: 90%;
 }
 .About img {
   display: flex;
@@ -43,9 +44,14 @@ footer {
 .About .imageContainer {
   display: flex;
   flex-direction: column;
+  gap: 34px;
+}
+.About .imageContainer img {
+  width: 344px;
+  padding: 5px 0px;
 }
 .About .descriptionServicesContainer {
-  padding: 0px 50px;
+  padding-left: 38px;
 }
 
 .Skills h1 {
@@ -68,7 +74,7 @@ footer {
   font-weight: 400;
 }
 .Services ul {
-  padding: 0px 70px;
+  padding-left: 70px;
 }
 .Services li {
   padding: 10px;

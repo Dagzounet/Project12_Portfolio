@@ -6,6 +6,7 @@
     p {
         position: relative;
         left: 30px;
+        width: 90%;
     }
     img {
         display: flex;
@@ -14,8 +15,13 @@
     .imageContainer {
         display: flex;
         flex-direction: column;
+        gap: 34px;
+        img {
+            width: 344px;
+            padding: 5px 0px;
+        }
     }
     .descriptionServicesContainer {
-        padding: 0px 50px;
+        padding-left: 38px;
     }
 }
