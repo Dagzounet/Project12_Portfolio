@@ -1,0 +1,21 @@
+header {
+  background-color: black;
+  text-align: end;
+}
+header img {
+  width: 240px;
+  position: relative;
+  top: 10px;
+}
+header a {
+  position: relative;
+  bottom: 20px;
+  padding: 10px;
+  right: 20px;
+  color: #6d89f0;
+  text-decoration: none;
+}
+
+a.underline {
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */
