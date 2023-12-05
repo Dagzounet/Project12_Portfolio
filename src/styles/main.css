@@ -110,4 +110,34 @@ main .separator {
   margin: 75px auto;
   background-color: #5D18E8;
   opacity: 0.8;
+}
+
+.Works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+.Works img {
+  width: 250px;
+}
+
+.carousel-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 10px;
+  min-width: 680px;
+  height: 577px;
+}
+.carousel-container img {
+  min-width: 680px;
+  height: 554px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.carousel-container figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */

@@ -1,5 +1,6 @@
 import About from "../../components/About/About";
 import Skills from "../../components/Skills/Skills";
+import Works from "../../components/Works/Works";
 
 function Home() {
   return (
@@ -8,7 +9,7 @@ function Home() {
       <div className="separator"></div>
       <Skills />
       <div className="separator"></div>
-      <section id="projects">Projects</section>
+      <Works />
       <section id="contact">Contact</section>
     </main>
   );

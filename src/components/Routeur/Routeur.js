@@ -12,7 +12,7 @@ function Routeur() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/skills" element={<Home />} />
-        <Route path="/projects" element={<Home />} />
+        <Route path="/works" element={<Home />} />
         <Route path="/contact" element={<Home />} />
         <Route path="*" element={<Error404 />} />
       </Routes>

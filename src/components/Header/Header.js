@@ -21,11 +21,11 @@ function Header() {
         Skills
       </a>
       <a
-        href="#projects"
-        alt="Projects"
-        className={location.pathname === "/projects" ? "underline" : ""}
+        href="#works"
+        alt="Works"
+        className={location.pathname === "/works" ? "underline" : ""}
       >
-        Projects
+        Works
       </a>
       <a
         href="#contact"
