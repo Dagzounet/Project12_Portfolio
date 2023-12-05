@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 import githubLogo from "../../assets/githubLogo.webp";
 
 function Carousel({ cardsData }) {
@@ -46,5 +47,14 @@ function Carousel({ cardsData }) {
     </div>
   );
 }
+
+Carousel.propTypes = {
+  cardsData: PropTypes.arrayOf(
+    PropTypes.shape({
+      img: PropTypes.string.isRequired,
+      githubLink: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+};
 
 export default Carousel;
