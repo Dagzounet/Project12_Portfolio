@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/Project12_Portfolio/static/css/main.ff1732bd.css",
-    "main.js": "/Project12_Portfolio/static/js/main.d3557b1f.js",
+    "main.css": "/Project12_Portfolio/static/css/main.dff299f1.css",
+    "main.js": "/Project12_Portfolio/static/js/main.f74702a5.js",
     "static/js/787.7da95b79.chunk.js": "/Project12_Portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/SophieWork.webp": "/Project12_Portfolio/static/media/SophieWork.9ed5d0e57b1d46eae322.webp",
+    "static/media/KasaWork.webp": "/Project12_Portfolio/static/media/KasaWork.04802b6727f647885fde.webp",
     "static/media/dagzounet.webp": "/Project12_Portfolio/static/media/dagzounet.4c724ca70557d29848a2.webp",
     "static/media/logo.webp": "/Project12_Portfolio/static/media/logo.050786b8cd7d367b7638.webp",
     "static/media/webdevlogo.webp": "/Project12_Portfolio/static/media/webdevlogo.5c189f12c05a2bd08409.webp",
     "static/media/ServiceLogo.webp": "/Project12_Portfolio/static/media/ServiceLogo.02d9d46ee0b090f97d3d.webp",
     "static/media/SkillsLogo.webp": "/Project12_Portfolio/static/media/SkillsLogo.040b1e1f2c041ac971bd.webp",
+    "static/media/WorksLogo.webp": "/Project12_Portfolio/static/media/WorksLogo.b4af06f843486a1d8129.webp",
     "static/media/AboutLogo.webp": "/Project12_Portfolio/static/media/AboutLogo.dd01568235431223191f.webp",
     "static/media/react.webp": "/Project12_Portfolio/static/media/react.159c81db5118943955ab.webp",
     "static/media/sass.webp": "/Project12_Portfolio/static/media/sass.9805dc2d8e4ffc1bb0db.webp",
@@ -16,12 +19,12 @@
     "static/media/css3.webp": "/Project12_Portfolio/static/media/css3.6dbaa13299f201e1d992.webp",
     "static/media/html5.webp": "/Project12_Portfolio/static/media/html5.6f45ca0e91c081153810.webp",
     "index.html": "/Project12_Portfolio/index.html",
-    "main.ff1732bd.css.map": "/Project12_Portfolio/static/css/main.ff1732bd.css.map",
-    "main.d3557b1f.js.map": "/Project12_Portfolio/static/js/main.d3557b1f.js.map",
+    "main.dff299f1.css.map": "/Project12_Portfolio/static/css/main.dff299f1.css.map",
+    "main.f74702a5.js.map": "/Project12_Portfolio/static/js/main.f74702a5.js.map",
     "787.7da95b79.chunk.js.map": "/Project12_Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff1732bd.css",
-    "static/js/main.d3557b1f.js"
+    "static/css/main.dff299f1.css",
+    "static/js/main.f74702a5.js"
   ]
 }
