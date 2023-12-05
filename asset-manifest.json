@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Project12_Portfolio/static/css/main.2e0ced79.css",
+    "main.css": "/Project12_Portfolio/static/css/main.56966f7b.css",
     "main.js": "/Project12_Portfolio/static/js/main.31dc0d78.js",
     "static/js/787.7da95b79.chunk.js": "/Project12_Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/SophieWork.webp": "/Project12_Portfolio/static/media/SophieWork.9ed5d0e57b1d46eae322.webp",
@@ -21,12 +21,12 @@
     "static/media/css3.webp": "/Project12_Portfolio/static/media/css3.6dbaa13299f201e1d992.webp",
     "static/media/html5.webp": "/Project12_Portfolio/static/media/html5.6f45ca0e91c081153810.webp",
     "index.html": "/Project12_Portfolio/index.html",
-    "main.2e0ced79.css.map": "/Project12_Portfolio/static/css/main.2e0ced79.css.map",
+    "main.56966f7b.css.map": "/Project12_Portfolio/static/css/main.56966f7b.css.map",
     "main.31dc0d78.js.map": "/Project12_Portfolio/static/js/main.31dc0d78.js.map",
     "787.7da95b79.chunk.js.map": "/Project12_Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e0ced79.css",
+    "static/css/main.56966f7b.css",
     "static/js/main.31dc0d78.js"
   ]
 }
