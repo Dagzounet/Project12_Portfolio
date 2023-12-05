@@ -5,13 +5,20 @@ function Header() {
   const location = useLocation(); //utilisation de ce hooks pour obtenir les info de l'url actuelle
   return (
     <header>
-      <img src={logo} alt="le logo de kasa" />
+      <img src={logo} alt="le logo de dagzounet" />
       <a
         href="#"
         alt="About"
         className={location.pathname === "/" ? "underline" : ""}
       >
         About
+      </a>
+      <a
+        href="#skills"
+        alt="MySkills"
+        className={location.pathname === "/skills" ? "underline" : ""}
+      >
+        Skills
       </a>
       <a
         href="#projects"

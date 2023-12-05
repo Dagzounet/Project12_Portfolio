@@ -1,7 +1,6 @@
 import DagzounetPicture from "../../assets/dagzounet.webp";
 import webdevlogo from "../../assets/webdevlogo.webp";
 import Services from "../Services/Services";
-import Skills from "../Skills/Skills";
 import AboutLogo from "../../assets/AboutLogo.webp";
 
 function About() {

@@ -1,11 +1,18 @@
+@import "../../styles/Variables";
+
 .Skills {
-h1 {
-    border: #5E18E5 solid 5px;
-    border-radius: 13px;
-    width: 149px;
-    background-color: #5E18E5;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+img {
+    width: 250px;
+}
+.skillsContainer {
+    padding: 50px;
+    img {
+        width: 145px;
+        padding: 0px 20px;
+    }
 }
 }

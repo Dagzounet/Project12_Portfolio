@@ -28,7 +28,7 @@ footer {
 
 .About {
   background-color: black;
-  padding: 100px 60px;
+  padding: 100px 60px 30px 60px;
   color: white;
   display: flex;
 }
@@ -54,14 +54,21 @@ footer {
   padding-left: 38px;
 }
 
-.Skills h1 {
-  border: #5E18E5 solid 5px;
-  border-radius: 13px;
-  width: 149px;
-  background-color: #5E18E5;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
+.Skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+.Skills img {
+  width: 250px;
+}
+.Skills .skillsContainer {
+  padding: 50px;
+}
+.Skills .skillsContainer img {
+  width: 145px;
+  padding: 0px 20px;
 }
 
 .Services h1 {
@@ -92,4 +99,15 @@ li {
 
 h1 {
   color: #e5e5e5;
+}
+
+main {
+  background-color: black;
+}
+main .separator {
+  height: 2px;
+  width: 65%;
+  margin: 75px auto;
+  background-color: #5D18E8;
+  opacity: 0.8;
 }/*# sourceMappingURL=main.css.map */

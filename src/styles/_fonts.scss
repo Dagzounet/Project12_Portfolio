@@ -1,9 +1,11 @@
+@import "./variables";
+
 p {
-    color: #e5e5e5;
+    color: $fontcolor;
 }
 li {
-    color: #e5e5e5;
+    color: $fontcolor;
 }
 h1 {
-    color: #e5e5e5
+    color: $fontcolor;
 }
