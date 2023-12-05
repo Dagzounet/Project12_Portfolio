@@ -4,16 +4,27 @@
     align-items: center;
     border-radius: 10px;
     min-width: 680px;
-    height: 577px;
-    img {
-        min-width: 680px;
-        height: 554px;
-        object-fit: cover;
-        border-radius: 10px;
-    }
     figure {
         display: flex;
         flex-direction: column;
         align-items: center;
+        .cards {
+            min-width: 680px;
+            height: 554px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+    .controlsButton {
+        background-color: transparent;
+        border: none;
+        color: #5E17EA;
+        font-size: 55px;
+        position: relative;
+        bottom: 81px;
+    }
+    .githubLogo {
+        width: 100px;
+        padding-top: 10px;
     }
 }

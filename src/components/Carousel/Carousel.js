@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import githubLogo from "../../assets/githubLogo.webp";
 
-function Cards({ cardsData }) {
+function Carousel({ cardsData }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
@@ -17,29 +18,33 @@ function Cards({ cardsData }) {
 
   return (
     <div className="carousel-container">
-      <button onClick={handlePrev}>Previous</button>
+      <button className="controlsButton" onClick={handlePrev}>
+        {"<"}
+      </button>
       <div className="carousel">
         {cardsData.map(
           (card, index) =>
             index === currentIndex && ( // Permet d'avoir seulement la figure sélectionné en rendu dynamique
               <div key={index}>
                 <figure>
-                  <img src={card.img} alt="Card" />
+                  <img className="cards" src={card.img} alt="Card" />
                   <a
                     href={card.githubLink}
                     target="_blank"
                     rel="noopener noreferrer" // pour protéger du phishing (empêche le lien avec la page parent)
                   >
-                    <button>GitHub</button>
+                    <img className="githubLogo" src={githubLogo} alt="GitHub" />
                   </a>
                 </figure>
               </div>
             )
         )}
       </div>
-      <button onClick={handleNext}>Next</button>
+      <button className="controlsButton" onClick={handleNext}>
+        {">"}
+      </button>
     </div>
   );
 }
 
-export default Cards;
+export default Carousel;
