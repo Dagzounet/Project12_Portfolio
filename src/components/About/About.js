@@ -18,6 +18,15 @@ function About() {
           finest online experience, dedicated to bringing your dream website to
           life.
         </p>
+        <p>
+          I've completed the comprehensive React web developer integration
+          program at OpenClassroom, undertaking 12 website projects spanning a
+          total duration of 9 months. This program awards the professional
+          certification "Web Developer Integrator," recognized and listed in the
+          French National Directory of Professional Certifications at level 5
+          (equivalent to a bachelor's degree) in both French and European
+          certification frameworks (European Qualifications Framework).
+        </p>
         <Services />
       </div>
     </section>
