@@ -1,4 +1,10 @@
 footer {
     background-color: black;
-    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    p {
+        color: #6d89f0;
+    }
 }

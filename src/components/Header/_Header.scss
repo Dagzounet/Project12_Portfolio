@@ -1,6 +1,9 @@
 header {
+    position: sticky;
+    top: 0;
     background-color: black;
     text-align: end;
+    z-index: 1000;
     img {
         display: flex;
         width: 240px;

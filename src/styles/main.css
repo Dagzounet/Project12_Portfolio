@@ -1,6 +1,9 @@
 header {
+  position: sticky;
+  top: 0;
   background-color: black;
   text-align: end;
+  z-index: 1000;
 }
 header img {
   display: flex;
@@ -23,7 +26,13 @@ a.underline {
 
 footer {
   background-color: black;
-  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+footer p {
+  color: #6d89f0;
 }
 
 .About {
@@ -90,15 +99,15 @@ footer {
 }
 
 p {
-  color: #e5e5e5;
+  color: #dcdcdc;
 }
 
 li {
-  color: #e5e5e5;
+  color: #dcdcdc;
 }
 
 h1 {
-  color: #e5e5e5;
+  color: #dcdcdc;
 }
 
 main {
@@ -120,6 +129,47 @@ main .separator {
 }
 .Works img {
   width: 250px;
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Contact img {
+  width: 250px;
+}
+.Contact p {
+  color: #cec8ca;
+}
+.Contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 440px;
+  padding: 18px 0px;
+  align-items: center;
+}
+.Contact form input {
+  width: 100%;
+  background-color: #2b2a33;
+  color: #bfbfbf;
+  border: solid 2px #75747a;
+}
+.Contact form textarea {
+  width: 100%;
+  height: 250px;
+  background-color: #2b2a33;
+  color: #bfbfbf;
+  border: solid 2px #75747a;
+}
+.Contact form button {
+  background-color: #5E17EA;
+  border: none;
+  border-radius: 20px;
+  color: #cec8ca;
+  width: 190px;
+  padding: 8px;
 }
 
 .carousel-container {
@@ -146,9 +196,10 @@ main .separator {
   color: #5E17EA;
   font-size: 55px;
   position: relative;
-  bottom: 81px;
+  bottom: 68px;
 }
 .carousel-container .githubLogo {
   width: 100px;
-  padding-top: 10px;
+  position: relative;
+  top: 16px;
 }/*# sourceMappingURL=main.css.map */
