@@ -8,7 +8,7 @@ import redux from "../../assets/redux.webp";
 
 function Skills() {
   return (
-    <section className="Skills" id="skills">
+    <section className="Skills">
       <img src={SkillsLogo} alt="Logo with text myskills"></img>
       <div className="skillsContainer">
         <img src={css3} alt="logo of css3"></img>

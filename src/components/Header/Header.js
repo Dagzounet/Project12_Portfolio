@@ -1,37 +1,19 @@
-import { useLocation } from "react-router-dom";
 import logo from "../../assets/logo.webp";
 
 function Header() {
-  const location = useLocation(); //utilisation de ce hooks pour obtenir les info de l'url actuelle
   return (
     <header>
       <img src={logo} alt="le logo de dagzounet" />
-      <a
-        href="#"
-        alt="About"
-        className={location.pathname === "/" ? "underline" : ""}
-      >
+      <a href="#" alt="About">
         About
       </a>
-      <a
-        href="#skills"
-        alt="MySkills"
-        className={location.pathname === "/skills" ? "underline" : ""}
-      >
+      <a href="#skills" alt="MySkills">
         Skills
       </a>
-      <a
-        href="#works"
-        alt="Works"
-        className={location.pathname === "/works" ? "underline" : ""}
-      >
+      <a href="#works" alt="Works">
         Works
       </a>
-      <a
-        href="#contact"
-        alt="Contact"
-        className={location.pathname === "/contact" ? "underline" : ""}
-      >
+      <a href="#contact" alt="Contact">
         Contact
       </a>
     </header>

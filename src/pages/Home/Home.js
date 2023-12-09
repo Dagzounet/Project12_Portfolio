@@ -7,11 +7,11 @@ function Home() {
   return (
     <main>
       <About />
-      <div className="separator"></div>
+      <div className="separator" id="skills"></div>
       <Skills />
-      <div className="separator"></div>
+      <div className="separator" id="works"></div>
       <Works />
-      <div className="separator"></div>
+      <div className="separator" id="contact"></div>
       <Contact />
     </main>
   );

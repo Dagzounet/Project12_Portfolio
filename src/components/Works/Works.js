@@ -16,7 +16,7 @@ function Works() {
   ];
 
   return (
-    <section className="Works" id="works">
+    <section className="Works">
       <img src={WorksLogo} alt="Logo with text my works"></img>
       <Carousel cardsData={cardsData} />
     </section>

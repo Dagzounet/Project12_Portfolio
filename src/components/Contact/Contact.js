@@ -40,7 +40,7 @@ function Contact() {
   }
 
   return (
-    <section className="Contact" id="contact">
+    <section className="Contact">
       <img src={ContactLogo} alt="Logo with text Contact me" />
       <form onSubmit={sendEmail}>
         <input type="email" name="from_name" placeholder="Your email" />
