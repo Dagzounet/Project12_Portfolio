@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/Project12_Portfolio/static/css/main.2952d066.css",
-    "main.js": "/Project12_Portfolio/static/js/main.4e48a157.js",
+    "main.css": "/Project12_Portfolio/static/css/main.ae3fa521.css",
+    "main.js": "/Project12_Portfolio/static/js/main.112fe782.js",
     "static/js/787.7da95b79.chunk.js": "/Project12_Portfolio/static/js/787.7da95b79.chunk.js",
-    "static/media/SophieWork.webp": "/Project12_Portfolio/static/media/SophieWork.9ed5d0e57b1d46eae322.webp",
+    "static/media/SophieWork.webp": "/Project12_Portfolio/static/media/SophieWork.6a2f658de986c85f4f2f.webp",
     "static/media/KasaWork.webp": "/Project12_Portfolio/static/media/KasaWork.04802b6727f647885fde.webp",
     "static/media/dagzounet.webp": "/Project12_Portfolio/static/media/dagzounet.4c724ca70557d29848a2.webp",
+    "static/media/js.webp": "/Project12_Portfolio/static/media/js.7ba1d77602fa313bc0cb.webp",
+    "static/media/react.webp": "/Project12_Portfolio/static/media/react.afc1eb754cc7a5b54730.webp",
     "static/media/logo.webp": "/Project12_Portfolio/static/media/logo.050786b8cd7d367b7638.webp",
+    "static/media/redux.webp": "/Project12_Portfolio/static/media/redux.91b4d2bb793a6826ae6d.webp",
+    "static/media/sass.webp": "/Project12_Portfolio/static/media/sass.7b8897f56538062d7277.webp",
+    "static/media/html5.webp": "/Project12_Portfolio/static/media/html5.5651a15c2037fd83b395.webp",
     "static/media/githubLogo.webp": "/Project12_Portfolio/static/media/githubLogo.3a1f54dbd364de33261f.webp",
+    "static/media/css3.webp": "/Project12_Portfolio/static/media/css3.9a9a22e1ac7ab6ff650f.webp",
     "static/media/webdevlogo.webp": "/Project12_Portfolio/static/media/webdevlogo.5c189f12c05a2bd08409.webp",
     "static/media/ServiceLogo.webp": "/Project12_Portfolio/static/media/ServiceLogo.02d9d46ee0b090f97d3d.webp",
     "static/media/SkillsLogo.webp": "/Project12_Portfolio/static/media/SkillsLogo.040b1e1f2c041ac971bd.webp",
     "static/media/ContactLogo.webp": "/Project12_Portfolio/static/media/ContactLogo.c728f010ea07d20fb50b.webp",
     "static/media/WorksLogo.webp": "/Project12_Portfolio/static/media/WorksLogo.b4af06f843486a1d8129.webp",
     "static/media/AboutLogo.webp": "/Project12_Portfolio/static/media/AboutLogo.dd01568235431223191f.webp",
-    "static/media/react.webp": "/Project12_Portfolio/static/media/react.159c81db5118943955ab.webp",
-    "static/media/sass.webp": "/Project12_Portfolio/static/media/sass.9805dc2d8e4ffc1bb0db.webp",
-    "static/media/redux.webp": "/Project12_Portfolio/static/media/redux.776eb7b19e82b3d33719.webp",
-    "static/media/js.webp": "/Project12_Portfolio/static/media/js.67a3da263eab93befcf0.webp",
-    "static/media/css3.webp": "/Project12_Portfolio/static/media/css3.6dbaa13299f201e1d992.webp",
-    "static/media/html5.webp": "/Project12_Portfolio/static/media/html5.6f45ca0e91c081153810.webp",
     "index.html": "/Project12_Portfolio/index.html",
-    "main.2952d066.css.map": "/Project12_Portfolio/static/css/main.2952d066.css.map",
-    "main.4e48a157.js.map": "/Project12_Portfolio/static/js/main.4e48a157.js.map",
+    "main.ae3fa521.css.map": "/Project12_Portfolio/static/css/main.ae3fa521.css.map",
+    "main.112fe782.js.map": "/Project12_Portfolio/static/js/main.112fe782.js.map",
     "787.7da95b79.chunk.js.map": "/Project12_Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2952d066.css",
-    "static/js/main.4e48a157.js"
+    "static/css/main.ae3fa521.css",
+    "static/js/main.112fe782.js"
   ]
 }
