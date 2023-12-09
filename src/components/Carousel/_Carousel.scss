@@ -4,16 +4,17 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    min-width: 680px;
     figure {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
         .cards {
-            min-width: 680px;
-            height: 554px;
+            height: auto;
             object-fit: cover;
             border-radius: 10px;
+            width: 100%;
+            max-width: 100%;
         }
     }
     .controlsButton {
@@ -23,6 +24,7 @@
         font-size: 55px;
         position: relative;
         bottom: 157px;
+        padding: 0px 40px;
         transition: transform 0.3s ease-in-out;
     }
     .controlsButton:hover {
@@ -45,11 +47,30 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 55%;
+
+    .figure-container {
+        width: 100%;
+        overflow: hidden;
+        max-height: 675px;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    img {
+        min-width: 100%;
+    }
 
     .description {
         text-align: center;
-        width: 700px;
-        height: 107px;
+        width: 70%;
+        height: 100%;
     }
+    }
+}
+
+@media screen and (max-width: 866px) {
+    .carousel-container {
+        width: 100%;
     }
 }

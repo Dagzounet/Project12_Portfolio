@@ -1,5 +1,4 @@
 .About {
-    background-color: black;
     padding: 100px 60px 30px 60px;
     color: white;
     display: flex;
@@ -23,5 +22,17 @@
     }
     .descriptionServicesContainer {
         padding-left: 38px;
+    }
+}
+
+@media screen and (max-width: 866px) {
+    .About {
+        flex-direction: column;
+        img {
+            padding: 15px 0px;
+        }
+        .descriptionServicesContainer {
+            padding-left: 0px;
+        }
     }
 }

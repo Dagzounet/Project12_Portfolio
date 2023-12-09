@@ -2,9 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
 img {
     width: 250px;
     margin-bottom: 17px;
 }
+}
+
+@media screen and (max-width: 866px) {
+    .Works {
+        width: 100%;
+    }
 }

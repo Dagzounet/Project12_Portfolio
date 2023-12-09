@@ -25,14 +25,14 @@ function Carousel({ cardsData }) {
       <div className="carousel">
         <figure className="figure-container">
           <img className="cards" src={cardsData[currentIndex].img} alt="Card" />
-          <a
-            href={cardsData[currentIndex].githubLink}
-            target="_blank"
-            rel="noopener noreferrer" // pour protéger du phishing (ouvre le lien dans un nouvel onglet sans lien avec la page d'origine)
-          >
-            <img className="githubLogo" src={githubLogo} alt="GitHub" />
-          </a>
         </figure>
+        <a
+          href={cardsData[currentIndex].githubLink}
+          target="_blank"
+          rel="noopener noreferrer" // pour protéger du phishing (ouvre le lien dans un nouvel onglet sans lien avec la page d'origine)
+        >
+          <img className="githubLogo" src={githubLogo} alt="GitHub" />
+        </a>
         <p className="description">{cardsData[currentIndex].description}</p>
       </div>
       <button className="controlsButton" onClick={handleNext}>

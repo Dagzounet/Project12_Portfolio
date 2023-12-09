@@ -47,7 +47,6 @@ footer p {
 }
 
 .About {
-  background-color: black;
   padding: 100px 60px 30px 60px;
   color: white;
   display: flex;
@@ -74,11 +73,21 @@ footer p {
   padding-left: 38px;
 }
 
+@media screen and (max-width: 866px) {
+  .About {
+    flex-direction: column;
+  }
+  .About img {
+    padding: 15px 0px;
+  }
+  .About .descriptionServicesContainer {
+    padding-left: 0px;
+  }
+}
 .Skills {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
 }
 .Skills img {
   width: 250px;
@@ -145,17 +154,27 @@ main .separator {
   opacity: 0.8;
 }
 
+@media screen and (max-width: 866px) {
+  .separator {
+    width: 85%; /* Ajustez la largeur pour les écrans plus petits */
+    margin: 60px auto; /* Ajustez la marge pour les écrans plus petits */
+  }
+}
 .Works {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
 }
 .Works img {
   width: 250px;
   margin-bottom: 17px;
 }
 
+@media screen and (max-width: 866px) {
+  .Works {
+    width: 100%;
+  }
+}
 .Contact {
   display: flex;
   flex-direction: column;
@@ -203,18 +222,19 @@ main .separator {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  min-width: 680px;
 }
 .carousel-container figure {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 .carousel-container figure .cards {
-  min-width: 680px;
-  height: 554px;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
+  width: 100%;
+  max-width: 100%;
 }
 .carousel-container .controlsButton {
   background-color: transparent;
@@ -223,6 +243,7 @@ main .separator {
   font-size: 55px;
   position: relative;
   bottom: 157px;
+  padding: 0px 40px;
   transition: transform 0.3s ease-in-out;
 }
 .carousel-container .controlsButton:hover {
@@ -242,9 +263,26 @@ main .separator {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 55%;
+}
+.carousel-container .carousel .figure-container {
+  width: 100%;
+  overflow: hidden;
+  max-height: 675px;
+  align-items: center;
+  border-radius: 20px;
+}
+.carousel-container .carousel img {
+  min-width: 100%;
 }
 .carousel-container .carousel .description {
   text-align: center;
-  width: 700px;
-  height: 107px;
+  width: 70%;
+  height: 100%;
+}
+
+@media screen and (max-width: 866px) {
+  .carousel-container {
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
