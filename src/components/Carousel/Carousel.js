@@ -23,23 +23,17 @@ function Carousel({ cardsData }) {
         {"<"}
       </button>
       <div className="carousel">
-        {cardsData.map(
-          (card, index) =>
-            index === currentIndex && ( // Permet d'avoir seulement la figure sélectionné en rendu dynamique
-              <div key={index}>
-                <figure>
-                  <img className="cards" src={card.img} alt="Card" />
-                  <a
-                    href={card.githubLink}
-                    target="_blank"
-                    rel="noopener noreferrer" // pour protéger du phishing (empêche le lien avec la page parent)
-                  >
-                    <img className="githubLogo" src={githubLogo} alt="GitHub" />
-                  </a>
-                </figure>
-              </div>
-            )
-        )}
+        <figure className="figure-container">
+          <img className="cards" src={cardsData[currentIndex].img} alt="Card" />
+          <a
+            href={cardsData[currentIndex].githubLink}
+            target="_blank"
+            rel="noopener noreferrer" // pour protéger du phishing (ouvre le lien dans un nouvel onglet sans lien avec la page d'origine)
+          >
+            <img className="githubLogo" src={githubLogo} alt="GitHub" />
+          </a>
+        </figure>
+        <p className="description">{cardsData[currentIndex].description}</p>
       </div>
       <button className="controlsButton" onClick={handleNext}>
         {">"}
@@ -53,6 +47,7 @@ Carousel.propTypes = {
     PropTypes.shape({
       img: PropTypes.string.isRequired,
       githubLink: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
     })
   ).isRequired,
 };

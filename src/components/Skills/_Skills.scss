@@ -8,6 +8,12 @@ img {
 }
 .skillsContainer {
     padding: 74px 50px 65px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     img {
         width: 163px;
         padding: 0px 4px;

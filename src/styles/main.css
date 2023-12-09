@@ -85,6 +85,12 @@ footer p {
 }
 .Skills .skillsContainer {
   padding: 74px 50px 65px 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 .Skills .skillsContainer img {
   width: 163px;
@@ -127,11 +133,14 @@ html {
 
 main {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 main .separator {
   height: 2px;
   width: 65%;
-  margin: 75px auto;
+  margin: 110px auto;
   background-color: #5D18E8;
   opacity: 0.8;
 }
@@ -144,6 +153,7 @@ main .separator {
 }
 .Works img {
   width: 250px;
+  margin-bottom: 17px;
 }
 
 .Contact {
@@ -191,6 +201,7 @@ main .separator {
   display: flex;
   position: relative;
   align-items: center;
+  justify-content: center;
   border-radius: 10px;
   min-width: 680px;
 }
@@ -211,10 +222,29 @@ main .separator {
   color: #5E17EA;
   font-size: 55px;
   position: relative;
-  bottom: 68px;
+  bottom: 157px;
+  transition: transform 0.3s ease-in-out;
+}
+.carousel-container .controlsButton:hover {
+  transform: scale(1.5); /* taille au survol */
+  cursor: pointer;
 }
 .carousel-container .githubLogo {
   width: 100px;
   position: relative;
-  top: 16px;
+  top: 18px;
+  transition: transform 0.3s ease-in-out; /* Ajout de la transition */
+}
+.carousel-container .githubLogo:hover {
+  transform: scale(1.1); /* taille au survol */
+}
+.carousel-container .carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel-container .carousel .description {
+  text-align: center;
+  width: 700px;
+  height: 107px;
 }/*# sourceMappingURL=main.css.map */

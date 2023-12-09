@@ -8,10 +8,13 @@ function Works() {
     {
       img: KasaWork,
       githubLink: "https://github.com/Dagzounet/Project8_Kasa",
+      description: "test",
     },
     {
       img: SophieWork,
       githubLink: "https://github.com/Dagzounet/Project6_SophieBluel",
+      description:
+        "This work was a portfolio made for a fictional character named Sophie Bluel, Here the goal was to learn and use Javascript, making some necessary call to API to connect front-end with back-end, and be able to create the log in webpage with security and token management, retrieve galery works from backend and made edit button and modal to be able to remove or send new works to server from the website when a user administrator is logged",
     },
   ];
 

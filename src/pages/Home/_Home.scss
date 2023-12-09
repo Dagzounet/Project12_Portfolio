@@ -1,9 +1,12 @@
 main {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .separator {
         height: 2px;
         width: 65%; 
-        margin: 75px auto; 
+        margin: 110px auto; 
         background-color: #5D18E8;
         opacity: 0.8; 
       }
