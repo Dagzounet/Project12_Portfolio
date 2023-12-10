@@ -19,8 +19,11 @@ function Carousel({ cardsData }) {
 
   return (
     <div className="carousel-container">
-      <button className="controlsButton" onClick={handlePrev}>
+      <button className="controlsButton arrowleft" onClick={handlePrev}>
         {"<"}
+      </button>
+      <button className="controlsButton arrowright" onClick={handleNext}>
+        {">"}
       </button>
       <div className="carousel">
         <figure className="figure-container">
@@ -35,9 +38,6 @@ function Carousel({ cardsData }) {
         </a>
         <p className="description">{cardsData[currentIndex].description}</p>
       </div>
-      <button className="controlsButton" onClick={handleNext}>
-        {">"}
-      </button>
     </div>
   );
 }

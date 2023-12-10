@@ -8,3 +8,11 @@ footer {
         color: #6d89f0;
     }
 }
+
+@media screen and (max-width: 500px) {
+    footer{
+        font-size: 14px;
+        padding-left: 10px;
+        text-align: center;
+    }
+}

@@ -4,6 +4,14 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    max-width: 55%;
+    .figure-container {
+        width: 100%;
+        overflow: hidden;
+        max-height: 100%;
+        align-items: center;
+        border-radius: 20px;
+    }
     figure {
         display: flex;
         flex-direction: column;
@@ -13,8 +21,9 @@
             height: auto;
             object-fit: cover;
             border-radius: 10px;
-            width: 100%;
             max-width: 100%;
+            width: 100%; 
+            max-height: 100%;
         }
     }
     .controlsButton {
@@ -22,11 +31,19 @@
         border: none;
         color: #5E17EA;
         font-size: 55px;
-        position: relative;
-        bottom: 157px;
-        padding: 0px 40px;
+        position: absolute;
+        top: 26%;
         transition: transform 0.3s ease-in-out;
     }
+
+    .arrowright {
+    left: 106%;
+    }
+
+    .arrowleft {
+    right: 106%;
+    }
+
     .controlsButton:hover {
         transform: scale(1.5); /* taille au survol */
         cursor: pointer;
@@ -47,30 +64,44 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 55%;
-
-    .figure-container {
         width: 100%;
-        overflow: hidden;
-        max-height: 675px;
-        align-items: center;
-        border-radius: 20px;
-    }
-
-    img {
-        min-width: 100%;
-    }
 
     .description {
         text-align: center;
-        width: 70%;
-        height: 100%;
     }
     }
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 769px) {
     .carousel-container {
-        width: 100%;
+        max-width: 80%;
+        .controlsButton {
+            font-size: 40px;
+            top: 25%;
+        }
+        .arrowright {
+            left: 102%;
+            }
+        .arrowleft {
+            right: 102%;
+            }
+        .githubLogo {
+            width: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carousel-container {
+        max-width: 77%;
+        .controlsButton {
+            font-size: 20px;
+            top: 19%;
+        }
+        .carousel {
+            .description {
+                font-size: 14px;
+            }
+        }
     }
 }

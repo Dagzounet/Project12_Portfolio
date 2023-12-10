@@ -33,3 +33,18 @@ header {
         }
     }
 }
+
+
+@media screen and (max-width: 600px) {
+    header {
+        img {
+            width: 140px;
+        }
+        a {
+            font-size: 10px;
+            bottom:19px;
+            padding: 4px;
+            right: 8px;
+        }
+    }
+ }
