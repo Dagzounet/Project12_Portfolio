@@ -269,6 +269,11 @@ main .separator {
   color: #cec8ca;
   width: 190px;
   padding: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+.Contact form button:hover {
+  cursor: pointer;
+  transform: scale(1.1); /* taille au survol */
 }
 
 @media screen and (max-width: 500px) {
