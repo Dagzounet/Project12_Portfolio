@@ -193,6 +193,14 @@ h1 {
 
 html {
   scroll-behavior: smooth;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: black;
+}
+@media screen and (max-width: 1440px) {
+  html {
+    max-width: 100%;
+  }
 }
 
 main {

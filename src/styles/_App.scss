@@ -1,3 +1,10 @@
 html {
     scroll-behavior: smooth;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+
+    @media screen and (max-width: 1440px) {
+        max-width: 100%;
+    }
 }
