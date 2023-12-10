@@ -9,13 +9,13 @@ function Works() {
       img: KasaWork,
       githubLink: "https://github.com/Dagzounet/Project8_Kasa",
       description:
-        "This work was a portfolio made for a fictional character named Sophie Bluel, Here the goal was to learn and use Javascript, making some necessary call to API to connect front-end with back-end, and be able to create the log in webpage with security and token management, retrieve galery works from backend and made edit button and modal to be able to remove or send new works to server from the website when a user administrator is logged",
+        "This project demonstrates the creation of a responsive web application for house and apartment rentals using React, React Router, and SASS/SCSS. The primary focus was on leveraging JSX to craft various pages with dynamic functionality. It involved fetching data from a JSON file via API calls, dynamically showcasing this data, and efficiently managing props by designing and reusing components throughout the website. The implementation emphasizes a user-friendly interface and seamless interaction for users exploring rental options.",
     },
     {
       img: SophieWork,
       githubLink: "https://github.com/Dagzounet/Project6_SophieBluel",
       description:
-        "This work was a portfolio made for a fictional character named Sophie Bluel, Here the goal was to learn and use Javascript, making some necessary call to API to connect front-end with back-end, and be able to create the log in webpage with security and token management, retrieve galery works from backend and made edit button and modal to be able to remove or send new works to server from the website when a user administrator is logged",
+        "This project constitutes a portfolio tailored for a fictional character named Sophie Bluel. It aimed to advance proficiency in JavaScript by establishing essential API calls to bridge the front-end and back-end functionalities. The project also entailed constructing a secure login webpage with robust token management. Notably, it enables administrators to log in, retrieve gallery works from the backend, and implement edit functionalities such as delete or upload new works via modal windows. This interaction allows administrators to manage the content displayed on the website effectively. The project emphasizes security, seamless backend/frontend integration, and efficient content management.",
     },
   ];
 
