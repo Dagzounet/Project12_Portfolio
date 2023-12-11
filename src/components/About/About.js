@@ -2,28 +2,8 @@ import DagzounetPicture from "../../assets/dagzounet.webp";
 import webdevlogo from "../../assets/webdevlogo.webp";
 import Services from "../Services/Services";
 import AboutLogo from "../../assets/AboutLogo.webp";
-import { useEffect } from "react";
 
 function About() {
-  useEffect(() => {
-    if (!document.querySelector('script[type="application/ld+json"]')) {
-      const script = document.createElement("script");
-      script.type = "application/ld+json";
-      script.innerHTML = JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Person", //pour l'instant type person, à passer en Service lorsque j'aurais établi des offres et tarifs
-        name: "Dagzounet",
-        image:
-          "https://dagzounet.github.io/Project12_Portfolio/static/media/dagzounet.4c724ca70557d29848a2.webp",
-        jobTitle: "Front-End Web Developer",
-        url: "https://dagzounet.github.io/Project12_Portfolio/#",
-        description:
-          "Hello everyone, I'm Dagzounet, a skilled French front-end web developer. My primary objective is to ensure that you receive the finest online experience, dedicated to bringing your dream website to life.",
-      });
-      script.setAttribute("defer", "");
-      document.head.appendChild(script);
-    }
-  }, []);
   return (
     <section className="About">
       <div className="imageContainer">
