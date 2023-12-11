@@ -1,4 +1,3 @@
-@charset "UTF-8";
 header {
   position: sticky;
   top: 0;
@@ -29,10 +28,10 @@ header a::before {
   bottom: 0;
   left: 0;
   background-color: #6d89f0;
-  transition: width 0.3s ease-in-out; /* Animation de la largeur */
+  transition: width 0.3s ease-in-out;
 }
 header a:hover::before {
-  width: 100%; /* La ligne progresse de gauche à droite */
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -156,15 +155,6 @@ footer p {
   padding: 0px 4px;
 }
 
-.Services h1 {
-  border: #5E18E5 solid 5px;
-  border-radius: 8px;
-  width: 115px;
-  background-color: #5E18E5;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-}
 .Services ul {
   padding-left: 70px;
 }
@@ -184,10 +174,6 @@ p {
 }
 
 li {
-  color: #dcdcdc;
-}
-
-h1 {
   color: #dcdcdc;
 }
 
@@ -219,8 +205,8 @@ main .separator {
 
 @media screen and (max-width: 866px) {
   .separator {
-    width: 85%; /* Ajustez la largeur pour les écrans plus petits */
-    margin: 60px auto; /* Ajustez la marge pour les écrans plus petits */
+    width: 85%;
+    margin: 60px auto;
   }
 }
 .Works {
@@ -281,7 +267,7 @@ main .separator {
 }
 .Contact form button:hover {
   cursor: pointer;
-  transform: scale(1.1); /* taille au survol */
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 500px) {
@@ -334,17 +320,17 @@ main .separator {
   right: 106%;
 }
 .carousel-container .controlsButton:hover {
-  transform: scale(1.5); /* taille au survol */
+  transform: scale(1.5);
   cursor: pointer;
 }
 .carousel-container .githubLogo {
   width: 100px;
   position: relative;
   top: 18px;
-  transition: transform 0.3s ease-in-out; /* Ajout de la transition */
+  transition: transform 0.3s ease-in-out;
 }
 .carousel-container .githubLogo:hover {
-  transform: scale(1.1); /* taille au survol */
+  transform: scale(1.1);
 }
 .carousel-container .carousel {
   display: flex;
@@ -383,6 +369,44 @@ main .separator {
     top: 19%;
   }
   .carousel-container .carousel .description {
+    font-size: 14px;
+  }
+}
+.Error404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30% 0%;
+}
+.Error404 p {
+  color: #5D17EA;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.Error404 a {
+  text-decoration: none;
+  text-align: center;
+  background-color: #5E17EA;
+  border: none;
+  border-radius: 20px;
+  color: #cec8ca;
+  width: 190px;
+  padding: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+.Error404 a:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 500px) {
+  .Error404 p {
+    font-size: 30px;
+  }
+  .Error404 a {
+    width: 140px;
     font-size: 14px;
   }
 }/*# sourceMappingURL=main.css.map */

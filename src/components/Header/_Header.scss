@@ -26,10 +26,10 @@ header {
             bottom: 0;
             left: 0;
             background-color: #6d89f0;
-            transition: width 0.3s ease-in-out; /* Animation de la largeur */
+            transition: width 0.3s ease-in-out;
         }
         &:hover::before {
-            width: 100%; /* La ligne progresse de gauche à droite */
+            width: 100%; 
         }
     }
 }

@@ -45,7 +45,7 @@
     }
 
     .controlsButton:hover {
-        transform: scale(1.5); /* taille au survol */
+        transform: scale(1.5);
         cursor: pointer;
       }
 
@@ -53,11 +53,11 @@
         width: 100px;
         position: relative;
         top: 18px;
-        transition: transform 0.3s ease-in-out; /* Ajout de la transition */
+        transition: transform 0.3s ease-in-out;
     }
 
     .githubLogo:hover {
-      transform: scale(1.1); /* taille au survol */
+      transform: scale(1.1);
     }
 
     .carousel {

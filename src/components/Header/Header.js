@@ -5,16 +5,16 @@ function Header() {
   return (
     <header>
       <img src={logo} alt="le logo de dagzounet" />
-      <a href="#" alt="About">
+      <a href="#" title="About">
         About
       </a>
-      <a href="#skills" alt="MySkills">
+      <a href="#skills" title="MySkills">
         Skills
       </a>
-      <a href="#works" alt="Works">
+      <a href="#works" title="Works">
         Works
       </a>
-      <a href="#contact" alt="Contact">
+      <a href="#contact" title="Contact">
         Contact
       </a>
     </header>
