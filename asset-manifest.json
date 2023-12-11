@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/Project12_Portfolio/static/css/main.08913eaf.css",
-    "main.js": "/Project12_Portfolio/static/js/main.0390ab40.js",
+    "main.js": "/Project12_Portfolio/static/js/main.92c4b1ee.js",
     "static/js/787.7da95b79.chunk.js": "/Project12_Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/SophieWork.webp": "/Project12_Portfolio/static/media/SophieWork.6a2f658de986c85f4f2f.webp",
     "static/media/KasaWork.webp": "/Project12_Portfolio/static/media/KasaWork.04802b6727f647885fde.webp",
+    "static/media/ArgentBankWork.webp": "/Project12_Portfolio/static/media/ArgentBankWork.8059ee0633067a5d81a1.webp",
     "static/media/dagzounet.webp": "/Project12_Portfolio/static/media/dagzounet.4c724ca70557d29848a2.webp",
     "static/media/js.webp": "/Project12_Portfolio/static/media/js.7ba1d77602fa313bc0cb.webp",
     "static/media/react.webp": "/Project12_Portfolio/static/media/react.afc1eb754cc7a5b54730.webp",
@@ -22,11 +23,11 @@
     "static/media/AboutLogo.webp": "/Project12_Portfolio/static/media/AboutLogo.dd01568235431223191f.webp",
     "index.html": "/Project12_Portfolio/index.html",
     "main.08913eaf.css.map": "/Project12_Portfolio/static/css/main.08913eaf.css.map",
-    "main.0390ab40.js.map": "/Project12_Portfolio/static/js/main.0390ab40.js.map",
+    "main.92c4b1ee.js.map": "/Project12_Portfolio/static/js/main.92c4b1ee.js.map",
     "787.7da95b79.chunk.js.map": "/Project12_Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08913eaf.css",
-    "static/js/main.0390ab40.js"
+    "static/js/main.92c4b1ee.js"
   ]
 }
